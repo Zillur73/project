@@ -98,3 +98,11 @@
     padding: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+/* Footer section work */
+.footer-container{
+    margin-top: 50px;
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
