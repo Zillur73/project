@@ -64,17 +64,7 @@
                 <a class="nav-link active" target="_blank"  href="signup.html">Signup</a>
               </li>
               
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
+           
            
             </ul>
             
@@ -84,10 +74,11 @@
     </header>
     <div class="container">
       <form action="login.php" method="post">
-        <h2>Login</h2>
-        <input type="email" placeholder="Username" name="email" required>
-        <input type="password" placeholder="Password" name="password" required>
-        <input type="submit" value="Submit">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" ><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" ><br>
+        <input type="submit" value="Login">
       </form>
     </div>
   </body>
